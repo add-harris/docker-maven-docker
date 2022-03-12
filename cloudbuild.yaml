@@ -1,4 +1,4 @@
 steps:
   - name: 'gcr.io/cloud-builders/docker'
-    args: ['build', '-t', 'gcr.io/$PROJECT_ID/utils/maven-docker:$COMMIT_SHA', '.']
-images: ['gcr.io/$PROJECT_ID/utils/maven-docker:latest', 'gcr.io/$PROJECT_ID/utils/maven-docker:$COMMIT_SHA']
+    args: ['build', '-t', 'gcr.io/$PROJECT_ID/utils/maven-docker', '.']
+images: ['gcr.io/$PROJECT_ID/utils/maven-docker']
